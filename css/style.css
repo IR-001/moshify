@@ -142,3 +142,27 @@ a {
 		padding-left: 0;
 	}
 }
+
+/* ICONS */
+
+.icon {
+	width: 40px;
+	height: 40px;
+}
+
+.icon--primary {
+	/* fill only apply for svg file */
+	fill: var(--color-primary);
+}
+
+/* single - -> to sperate multiple words */
+.icon-container {
+	background: #f3f9fa;
+	border-radius: 100%;
+	/* display: inline-block; */
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	height: 64px;
+	width: 64px;
+}
